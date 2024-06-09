@@ -1,0 +1,53 @@
+.image-container {
+  cursor:pointer;
+  width: 290px;
+  height: 250px;
+  /* object-fit */
+   /* Set your desired image height */
+  /* overflow: hidden; */
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* גובה מלא של מסך המגע */
+}
+/* .list-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar-content {
+    padding: 16px;
+  }
+  
+  .sidebar.show {
+    width: 250px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+   
+  }
+
+  /* color: pink[800]; */
+  
