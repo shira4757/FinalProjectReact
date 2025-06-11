@@ -21,7 +21,7 @@ jobs:
 
           cd /home/ubuntu/FinalProjectReact
           git pull
-          npm i
+          npm insatll
           npm run build
           sudo rm -rf /var/www/html/*
           sudo cp -r build/ /var/www/html
