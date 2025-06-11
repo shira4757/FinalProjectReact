@@ -24,7 +24,7 @@
 // }
 import axios from "axios";
 
-const baseUrl = "http://localhost:4000/user";
+const baseUrl = "/api/user";
 
 export const getUsersApi = async () => {
     const getResponse = await axios.get(baseUrl);
