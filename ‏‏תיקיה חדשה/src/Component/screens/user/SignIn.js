@@ -151,7 +151,7 @@ const [showPassword, setShowPassword] = React.useState(false);
 
                 {/* <p>Email: {user.email}</p>
             <p>Password: {user.password}</p> */}
-                <p>Current User:- {typeof currentFromRedux === 'object' ? JSON.stringify(currentFromRedux) : currentFromRedux}</p>
+                <p>Current User:-:-: {typeof currentFromRedux === 'object' ? JSON.stringify(currentFromRedux) : currentFromRedux}</p>
             </div>
         
     );
