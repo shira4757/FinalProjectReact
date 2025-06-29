@@ -19,8 +19,8 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
 
-          cd /home/ubuntu/FinalProjectReact
+          cd "/home/ubuntu/FinalProjectReact/‏‏תיקיה חדשה"
           git pull
           npm run build
           sudo rm -rf /var/www/html/*
-          sudo cp -r build/* /var/www/html
+          sudo cp -r build/ /var/www/html
